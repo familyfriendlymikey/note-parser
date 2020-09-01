@@ -48,7 +48,12 @@ view(){
 }
 ```
 
-If you want to edit notes directly from a web browser and are using github for version control, you can bookmark github's `go to file` option.
+If you want to edit notes on your computer, you can pipe find from `~/note-parser/` to fzf and open it in vim.
+```
+vim $(fd -f t -p ~/note-parser/ | fzf) # or something, haven't tested yet
+```
+
+If you want to edit notes from a web browser and are using github for version control, you can bookmark github's `go to file` option.
 ```
 https://github.com/username/note-parser/find/master
 ```
