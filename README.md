@@ -48,6 +48,11 @@ view(){
 }
 ```
 
+If you want to edit notes directly from a web browser and are using github for version control, you can bookmark github's `go to file` option.
+```
+https://github.com/username/note-parser/find/master
+```
+
 ## Usage
 1. Clone to $HOME, delete .git folder.
 1. Add notes to README.md.
