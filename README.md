@@ -59,7 +59,8 @@ https://github.com/username/note-parser/find/master
 ```
 
 ## Usage
-1. Clone to $HOME, delete .git folder.
-1. Add notes to README.md.
-1. Run parse.py at your own risk.
+1. `git clone note-parser ~/notes`
+1. Delete git folder
+1. Add notes to README.md
+1. Run parse.py at your own risk
 1. Run `./view.sh`
